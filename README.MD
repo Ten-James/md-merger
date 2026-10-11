@@ -8,7 +8,7 @@ so I made this tool to merge page and its sub pages.
 1. Export notion page as markdown
 2. Run this tool
 ```bash
-python mg-merger.py <folder> <root> <output>
+cargo run --release -- <folder> <root> <output>
 ```
 3. Done
 
